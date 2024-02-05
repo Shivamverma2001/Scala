@@ -1,4 +1,4 @@
-object Hello{
+object HelloDemo{
     def main(args:Array[String]): Unit={
         val x=true;
         val y=false;

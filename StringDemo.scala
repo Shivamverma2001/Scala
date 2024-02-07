@@ -38,6 +38,10 @@ object StringDemo{
                             It can have multiple lines
                              """
          println(multiLineStr)
+
+         //split
+         var str="hi my name is shivam verma".split(" ");
+         str.foreach(println)
     }
 
 }

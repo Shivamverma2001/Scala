@@ -21,7 +21,10 @@ object RegularExpDemo{
         val s="Hi My name is Shivam verma";
 
         val s1=s.replaceFirst("My","Your");
+        val s3=f.replaceAllIn(s,"Your");
+
         val s2=f.findAllIn(s);
+        println(s3)
 
         println(s1);
         s2.foreach(println)
@@ -31,5 +34,21 @@ object RegularExpDemo{
 
         val n3=n2.findAllIn(n1);
         n3.foreach(println)
+
+
+        // Replacing
+        var v1="8201530";
+
+        var v2=v1.replaceFirst("[01]","x");
+        var v3=v1.replaceAll("[01]","y");
+
+        println(v2);
+        println(v3);
+
+        var c1="[a-z]+".r;
+        var c2="dk79rx5c4lj2c8ge";
+
+        var c3=c1.replaceAllIn(c2,"1");
+        println(c3);
     }
 }

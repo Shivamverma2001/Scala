@@ -1618,3 +1618,618 @@ WARNING: Unmatched cancel notification for request id 2318
 2024.02.07 10:51:43 INFO  time: compiled Spark_bd2c96d2de in 0.11s
 2024.02.07 10:51:48 INFO  compiling spark_bd2c96d2de (1 scala source)
 2024.02.07 10:51:48 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.07 10:53:41 INFO  Shutting down server
+2024.02.07 10:53:41 INFO  shutting down Metals
+2024.02.07 10:53:41 INFO  Shut down connection with build server.
+2024.02.07 10:53:41 INFO  Exiting server
+2024.02.07 10:54:07 INFO  Started: Metals version 1.2.0 in folders '/Users/shivamverma/Documents/Spark' for client Visual Studio Code 1.86.0.
+2024.02.07 10:54:07 WARN  No build session currently active to reload.
+2024.02.07 10:54:07 INFO  Attempting to connect to the build server...
+2024.02.07 10:54:07 INFO  Running BSP server List(/Users/shivamverma/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/shivamverma/Documents/Spark/.scala-build/ide-options-v2.json, /Users/shivamverma/Documents/Spark)
+2024.02.07 10:54:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shivamverma/Documents/Spark/.metals/bsp.trace.json or /Users/shivamverma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.07 10:54:07 INFO  time: Connected to build server in 0.92s
+2024.02.07 10:54:07 INFO  Connected to Build server: scala-cli v1.1.2
+2024.02.07 10:54:12 INFO  Shutting down server
+2024.02.07 10:54:12 INFO  shutting down Metals
+2024.02.07 10:54:12 INFO  Shut down connection with build server.
+2024.02.07 10:54:12 INFO  Exiting server
+2024.02.14 09:11:43 INFO  Started: Metals version 1.2.1 in folders '/Users/shivamverma/Documents/Spark' for client Visual Studio Code 1.86.1.
+Could not download using Maven: java.lang.RuntimeException: java.io.IOException: Cannot run program "mvn": error=2, No such file or directory
+Downloading https://repo1.maven.org/maven2/com/h2database/h2/2.1.214/h2-2.1.214.jar
+Downloaded 780097 bytes
+Downloaded 1200961 bytes
+Downloaded 2064193 bytes
+2024.02.14 09:11:48 INFO  Upgraded H2 database.
+09:11:48.737 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+09:11:48.738 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+09:11:48.738 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+09:11:48.739 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+09:11:48.739 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579 ...
+09:11:48.739 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+09:11:48.739 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+09:11:48.739 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579 ...
+09:11:48.739 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/shivamverma/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.1/metals_2.13-1.2.1.jar!/db/migration
+09:11:48.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+09:11:48.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+09:11:48.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+09:11:48.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+09:11:48.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+09:11:48.740 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+09:11:48.742 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:48.742 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+09:11:48.742 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+09:11:48.742 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+09:11:48.742 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+09:11:48.796 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/shivamverma/Documents/Spark/.metals/metals (H2 2.2)
+09:11:48.796 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+09:11:48.796 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+09:11:48.797 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+09:11:48.797 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+09:11:48.798 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+09:11:48.799 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+09:11:48.799 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:48.802 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+09:11:48.803 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:48.806 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:11:48.806 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:11:48.806 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:11:48.806 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:11:48.806 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:48.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:11:48.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:11:48.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:11:48.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:11:48.807 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:48.810 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.008s)
+09:11:48.811 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+09:11:48.813 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+09:11:48.814 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+09:11:48.821 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 86 of 104M
+2024.02.14 09:11:48 INFO  Attempting to connect to the build server...
+2024.02.14 09:11:48 WARN  No build session currently active to reload.
+2024.02.14 09:11:48 INFO  Running BSP server List(/Users/shivamverma/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/shivamverma/Documents/Spark/.scala-build/ide-options-v2.json, /Users/shivamverma/Documents/Spark)
+2024.02.14 09:11:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shivamverma/Documents/Spark/.metals/bsp.trace.json or /Users/shivamverma/Library/Caches/org.scalameta.metals/bsp.trace.json
+Feb 14, 2024 9:11:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.02.14 09:11:50 INFO  BSP server: Starting compilation server
+2024.02.14 09:11:55 INFO  time: Connected to build server in 6.41s
+2024.02.14 09:11:55 INFO  Connected to Build server: scala-cli v1.1.2
+2024.02.14 09:12:13 INFO  time: indexed workspace in 17s
+2024.02.14 09:14:44 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:14:49 INFO  time: compiled Spark_bd2c96d2de in 5.15s
+2024.02.14 09:17:46 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:17:46 INFO  time: compiled Spark_bd2c96d2de in 0.31s
+2024.02.14 09:17:49 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:17:49 INFO  time: compiled Spark_bd2c96d2de in 0.34s
+2024.02.14 09:17:55 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:17:55 INFO  time: compiled Spark_bd2c96d2de in 0.25s
+2024.02.14 09:17:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:17:59 INFO  time: compiled Spark_bd2c96d2de in 0.24s
+2024.02.14 09:18:03 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:03 INFO  time: compiled Spark_bd2c96d2de in 0.35s
+2024.02.14 09:18:06 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:06 INFO  time: compiled Spark_bd2c96d2de in 0.17s
+2024.02.14 09:18:09 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:09 INFO  time: compiled Spark_bd2c96d2de in 0.14s
+2024.02.14 09:18:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:12 INFO  time: compiled Spark_bd2c96d2de in 0.14s
+2024.02.14 09:18:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:14 INFO  time: compiled Spark_bd2c96d2de in 0.13s
+2024.02.14 09:18:16 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:16 INFO  time: compiled Spark_bd2c96d2de in 66ms
+2024.02.14 09:18:24 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:24 INFO  time: compiled Spark_bd2c96d2de in 0.14s
+2024.02.14 09:18:30 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:30 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 09:18:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:33 INFO  time: compiled Spark_bd2c96d2de in 57ms
+2024.02.14 09:18:41 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:41 INFO  time: compiled Spark_bd2c96d2de in 55ms
+2024.02.14 09:18:44 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:44 INFO  time: compiled Spark_bd2c96d2de in 0.17s
+2024.02.14 09:18:49 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:49 INFO  time: compiled Spark_bd2c96d2de in 59ms
+2024.02.14 09:18:50 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:50 INFO  time: compiled Spark_bd2c96d2de in 0.17s
+2024.02.14 09:18:52 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:52 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.14 09:18:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:18:54 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 09:19:15 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:19:15 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.14 09:24:30 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:24:30 INFO  time: compiled Spark_bd2c96d2de in 0.13s
+2024.02.14 09:24:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:24:38 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.14 09:24:42 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:24:42 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.14 09:24:45 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:24:45 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.14 09:24:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:24:54 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.14 09:49:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:10 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.14 09:49:11 INFO  time: indexed workspace in 0.97s
+Feb 14, 2024 9:49:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+Feb 14, 2024 9:49:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 624
+Feb 14, 2024 9:49:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 625
+2024.02.14 09:49:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:14 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.14 09:49:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:18 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.14 09:49:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:29 INFO  time: compiled Spark_bd2c96d2de in 22ms
+2024.02.14 09:49:37 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:37 INFO  time: compiled Spark_bd2c96d2de in 22ms
+2024.02.14 09:49:47 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:47 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 09:49:47 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:48 INFO  time: compiled Spark_bd2c96d2de in 19ms
+2024.02.14 09:49:50 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:50 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.14 09:49:53 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:49:53 INFO  time: compiled Spark_bd2c96d2de in 67ms
+Feb 14, 2024 9:50:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 851
+2024.02.14 09:50:01 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:01 INFO  time: compiled Spark_bd2c96d2de in 24ms
+2024.02.14 09:50:03 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:03 INFO  time: compiled Spark_bd2c96d2de in 18ms
+2024.02.14 09:50:05 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:05 INFO  time: compiled Spark_bd2c96d2de in 75ms
+2024.02.14 09:50:07 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:07 INFO  time: compiled Spark_bd2c96d2de in 57ms
+2024.02.14 09:50:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:10 INFO  time: compiled Spark_bd2c96d2de in 0.21s
+2024.02.14 09:50:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:12 INFO  time: compiled Spark_bd2c96d2de in 68ms
+2024.02.14 09:50:13 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:13 INFO  time: compiled Spark_bd2c96d2de in 87ms
+2024.02.14 09:50:17 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:17 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.14 09:50:19 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:19 INFO  time: compiled Spark_bd2c96d2de in 83ms
+2024.02.14 09:50:21 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:21 INFO  time: compiled Spark_bd2c96d2de in 69ms
+2024.02.14 09:50:24 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:24 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.14 09:50:26 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:26 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 09:50:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:31 INFO  time: compiled Spark_bd2c96d2de in 28ms
+2024.02.14 09:50:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:33 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.14 09:50:35 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:35 INFO  time: compiled Spark_bd2c96d2de in 80ms
+2024.02.14 09:50:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:38 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 09:50:41 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:41 INFO  time: compiled Spark_bd2c96d2de in 82ms
+2024.02.14 09:50:46 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:46 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.14 09:50:47 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:47 INFO  time: compiled Spark_bd2c96d2de in 65ms
+2024.02.14 09:50:50 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:50 INFO  time: compiled Spark_bd2c96d2de in 67ms
+2024.02.14 09:50:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:50:51 INFO  time: compiled Spark_bd2c96d2de in 80ms
+2024.02.14 09:52:39 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:52:39 INFO  time: compiled Spark_bd2c96d2de in 86ms
+2024.02.14 09:52:42 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:52:42 INFO  time: compiled Spark_bd2c96d2de in 79ms
+2024.02.14 09:52:48 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:52:48 INFO  time: compiled Spark_bd2c96d2de in 83ms
+2024.02.14 09:52:52 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:52:52 INFO  time: compiled Spark_bd2c96d2de in 68ms
+2024.02.14 09:52:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:52:54 INFO  time: compiled Spark_bd2c96d2de in 75ms
+2024.02.14 09:52:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:52:59 INFO  time: compiled Spark_bd2c96d2de in 77ms
+2024.02.14 09:53:06 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:53:06 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 09:53:11 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:53:11 INFO  time: compiled Spark_bd2c96d2de in 45ms
+2024.02.14 09:53:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:53:14 INFO  time: compiled Spark_bd2c96d2de in 77ms
+2024.02.14 09:53:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:53:20 INFO  time: compiled Spark_bd2c96d2de in 75ms
+2024.02.14 09:53:22 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:53:22 INFO  time: compiled Spark_bd2c96d2de in 65ms
+2024.02.14 09:56:11 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:11 INFO  time: compiled Spark_bd2c96d2de in 36ms
+2024.02.14 09:56:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:14 INFO  time: compiled Spark_bd2c96d2de in 93ms
+2024.02.14 09:56:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:18 INFO  time: compiled Spark_bd2c96d2de in 89ms
+2024.02.14 09:56:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:20 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 09:56:22 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:22 INFO  time: compiled Spark_bd2c96d2de in 0.14s
+2024.02.14 09:56:24 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:24 INFO  time: compiled Spark_bd2c96d2de in 56ms
+2024.02.14 09:56:27 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:27 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.14 09:56:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:29 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 09:56:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:31 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 09:56:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:33 INFO  time: compiled Spark_bd2c96d2de in 33ms
+2024.02.14 09:56:34 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:34 INFO  time: compiled Spark_bd2c96d2de in 81ms
+2024.02.14 09:56:35 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:35 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 09:56:40 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:40 INFO  time: compiled Spark_bd2c96d2de in 79ms
+2024.02.14 09:56:41 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:56:41 INFO  time: compiled Spark_bd2c96d2de in 66ms
+2024.02.14 09:57:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:00 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.14 09:57:04 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:04 INFO  time: compiled Spark_bd2c96d2de in 47ms
+2024.02.14 09:57:06 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:06 INFO  time: compiled Spark_bd2c96d2de in 72ms
+2024.02.14 09:57:11 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:11 INFO  time: compiled Spark_bd2c96d2de in 85ms
+2024.02.14 09:57:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:12 INFO  time: compiled Spark_bd2c96d2de in 71ms
+2024.02.14 09:57:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:20 INFO  time: compiled Spark_bd2c96d2de in 78ms
+2024.02.14 09:57:27 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:27 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 09:57:30 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:30 INFO  time: compiled Spark_bd2c96d2de in 32ms
+2024.02.14 09:57:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:33 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.14 09:57:35 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:35 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.14 09:57:37 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:37 INFO  time: compiled Spark_bd2c96d2de in 32ms
+2024.02.14 09:57:39 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 09:57:39 INFO  time: compiled Spark_bd2c96d2de in 92ms
+2024.02.14 10:14:53 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:14:53 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 10:14:54 INFO  time: indexed workspace in 0.98s
+2024.02.14 10:15:04 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:04 INFO  time: compiled Spark_bd2c96d2de in 26ms
+2024.02.14 10:15:13 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:13 INFO  time: compiled Spark_bd2c96d2de in 33ms
+2024.02.14 10:15:17 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:17 INFO  time: compiled Spark_bd2c96d2de in 24ms
+2024.02.14 10:15:21 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:21 INFO  time: compiled Spark_bd2c96d2de in 60ms
+2024.02.14 10:15:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:31 INFO  time: compiled Spark_bd2c96d2de in 46ms
+2024.02.14 10:15:34 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:34 INFO  time: compiled Spark_bd2c96d2de in 68ms
+2024.02.14 10:15:40 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:40 INFO  time: compiled Spark_bd2c96d2de in 28ms
+2024.02.14 10:15:41 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:41 INFO  time: compiled Spark_bd2c96d2de in 20ms
+2024.02.14 10:15:44 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:44 INFO  time: compiled Spark_bd2c96d2de in 28ms
+2024.02.14 10:15:48 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:48 INFO  time: compiled Spark_bd2c96d2de in 27ms
+2024.02.14 10:15:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:51 INFO  time: compiled Spark_bd2c96d2de in 63ms
+2024.02.14 10:15:55 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:15:55 INFO  time: compiled Spark_bd2c96d2de in 32ms
+2024.02.14 10:16:02 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:02 INFO  time: compiled Spark_bd2c96d2de in 41ms
+2024.02.14 10:16:04 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:04 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.14 10:16:09 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:09 INFO  time: compiled Spark_bd2c96d2de in 39ms
+Feb 14, 2024 10:16:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2431
+2024.02.14 10:16:13 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:13 INFO  time: compiled Spark_bd2c96d2de in 40ms
+Feb 14, 2024 10:16:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2467
+2024.02.14 10:16:21 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:21 INFO  time: compiled Spark_bd2c96d2de in 40ms
+2024.02.14 10:16:25 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:25 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 10:16:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:31 INFO  time: compiled Spark_bd2c96d2de in 63ms
+2024.02.14 10:16:35 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:35 INFO  time: compiled Spark_bd2c96d2de in 69ms
+2024.02.14 10:16:40 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:40 INFO  time: compiled Spark_bd2c96d2de in 60ms
+2024.02.14 10:16:47 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:47 INFO  time: compiled Spark_bd2c96d2de in 27ms
+2024.02.14 10:16:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:51 INFO  time: compiled Spark_bd2c96d2de in 46ms
+2024.02.14 10:16:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:54 INFO  time: compiled Spark_bd2c96d2de in 29ms
+2024.02.14 10:16:56 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:56 INFO  time: compiled Spark_bd2c96d2de in 44ms
+2024.02.14 10:16:58 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:16:58 INFO  time: compiled Spark_bd2c96d2de in 70ms
+2024.02.14 10:17:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:17:10 INFO  time: compiled Spark_bd2c96d2de in 81ms
+2024.02.14 10:17:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:17:12 INFO  time: compiled Spark_bd2c96d2de in 76ms
+2024.02.14 10:21:23 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:21:23 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 10:21:24 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:21:24 INFO  time: compiled Spark_bd2c96d2de in 46ms
+2024.02.14 10:21:28 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:21:28 INFO  time: compiled Spark_bd2c96d2de in 86ms
+2024.02.14 10:21:30 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:21:30 INFO  time: compiled Spark_bd2c96d2de in 70ms
+2024.02.14 10:21:32 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:21:32 INFO  time: compiled Spark_bd2c96d2de in 78ms
+2024.02.14 10:21:36 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:21:36 INFO  time: compiled Spark_bd2c96d2de in 87ms
+Feb 14, 2024 10:24:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2868
+2024.02.14 10:24:01 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:24:01 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.14 10:24:08 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:24:08 INFO  time: compiled Spark_bd2c96d2de in 58ms
+2024.02.14 10:24:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:24:10 INFO  time: compiled Spark_bd2c96d2de in 99ms
+2024.02.14 10:24:15 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:24:15 INFO  time: compiled Spark_bd2c96d2de in 84ms
+2024.02.14 10:24:16 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:24:16 INFO  time: compiled Spark_bd2c96d2de in 97ms
+2024.02.14 10:25:57 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:25:57 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.14 10:26:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:26:00 INFO  time: compiled Spark_bd2c96d2de in 72ms
+2024.02.14 10:26:04 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:26:04 INFO  time: compiled Spark_bd2c96d2de in 54ms
+2024.02.14 10:26:11 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:26:11 INFO  time: compiled Spark_bd2c96d2de in 88ms
+2024.02.14 10:30:19 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:19 INFO  time: compiled Spark_bd2c96d2de in 96ms
+2024.02.14 10:30:26 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:26 INFO  time: compiled Spark_bd2c96d2de in 49ms
+2024.02.14 10:30:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:29 INFO  time: compiled Spark_bd2c96d2de in 46ms
+2024.02.14 10:30:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:31 INFO  time: compiled Spark_bd2c96d2de in 48ms
+2024.02.14 10:30:34 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:34 INFO  time: compiled Spark_bd2c96d2de in 85ms
+2024.02.14 10:30:36 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:36 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 10:30:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:38 INFO  time: compiled Spark_bd2c96d2de in 94ms
+2024.02.14 10:30:39 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:39 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.14 10:30:42 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:42 INFO  time: compiled Spark_bd2c96d2de in 48ms
+2024.02.14 10:30:44 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:44 INFO  time: compiled Spark_bd2c96d2de in 37ms
+2024.02.14 10:30:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:51 INFO  time: compiled Spark_bd2c96d2de in 50ms
+2024.02.14 10:30:52 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:52 INFO  time: compiled Spark_bd2c96d2de in 93ms
+Feb 14, 2024 10:30:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _*
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _*
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _*
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _*
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _*
+where destination = fun
+where parentCheckOk = false
+where parentPrefix = Term.Apply
+where this = _*
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$8(Trees.scala:240)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:241)
+	at scala.meta.Term$Apply$.apply(Trees.scala:130)
+	at scala.meta.Term$Apply$.apply(Trees.scala:130)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.processPatAndNextQual(FlatMapToForComprehensionCodeAction.scala:313)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$extractChainedForYield$1(FlatMapToForComprehensionCodeAction.scala:603)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.extractChainedForYield(FlatMapToForComprehensionCodeAction.scala:601)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$codeActionWithApply$1(FlatMapToForComprehensionCodeAction.scala:187)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.codeActionWithApply(FlatMapToForComprehensionCodeAction.scala:179)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$5(FlatMapToForComprehensionCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.02.14 10:30:55 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:55 INFO  time: compiled Spark_bd2c96d2de in 74ms
+2024.02.14 10:30:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:30:59 INFO  time: compiled Spark_bd2c96d2de in 51ms
+2024.02.14 10:31:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:00 INFO  time: compiled Spark_bd2c96d2de in 37ms
+2024.02.14 10:31:02 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:02 INFO  time: compiled Spark_bd2c96d2de in 78ms
+2024.02.14 10:31:08 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:08 INFO  time: compiled Spark_bd2c96d2de in 47ms
+2024.02.14 10:31:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:12 INFO  time: compiled Spark_bd2c96d2de in 94ms
+2024.02.14 10:31:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:14 INFO  time: compiled Spark_bd2c96d2de in 72ms
+2024.02.14 10:31:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:18 INFO  time: compiled Spark_bd2c96d2de in 95ms
+2024.02.14 10:31:19 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:19 INFO  time: compiled Spark_bd2c96d2de in 36ms
+2024.02.14 10:31:22 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:22 INFO  time: compiled Spark_bd2c96d2de in 37ms
+2024.02.14 10:31:23 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:23 INFO  time: compiled Spark_bd2c96d2de in 91ms
+2024.02.14 10:31:25 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:25 INFO  time: compiled Spark_bd2c96d2de in 73ms
+2024.02.14 10:31:50 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:50 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.14 10:31:55 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:55 INFO  time: compiled Spark_bd2c96d2de in 48ms
+2024.02.14 10:31:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:31:59 INFO  time: compiled Spark_bd2c96d2de in 89ms
+2024.02.14 10:32:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:32:00 INFO  time: compiled Spark_bd2c96d2de in 72ms
+2024.02.14 10:32:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:32:18 INFO  time: compiled Spark_bd2c96d2de in 86ms
+2024.02.14 10:32:21 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:32:21 INFO  time: compiled Spark_bd2c96d2de in 75ms
+2024.02.14 10:32:37 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:32:37 INFO  time: compiled Spark_bd2c96d2de in 90ms
+2024.02.14 10:33:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:33:20 INFO  time: compiled Spark_bd2c96d2de in 98ms
+2024.02.14 10:34:02 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:02 INFO  time: compiled Spark_bd2c96d2de in 29ms
+2024.02.14 10:34:03 INFO  time: indexed workspace in 0.87s
+2024.02.14 10:34:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:12 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 10:34:17 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:17 INFO  time: compiled Spark_bd2c96d2de in 22ms
+2024.02.14 10:34:22 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:22 INFO  time: compiled Spark_bd2c96d2de in 51ms
+2024.02.14 10:34:26 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:26 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.14 10:34:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:29 INFO  time: compiled Spark_bd2c96d2de in 15ms
+2024.02.14 10:34:34 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:34 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.14 10:34:36 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:36 INFO  time: compiled Spark_bd2c96d2de in 22ms
+2024.02.14 10:34:41 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:41 INFO  time: compiled Spark_bd2c96d2de in 15ms
+Feb 14, 2024 10:34:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/shivamverma/Documents/Spark/.metals/.reports/metals-full/2024-02-14/r_compiler-error_(Spark_bd2c96d2de)_10-34-41-757.md
+2024.02.14 10:34:42 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:42 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 10:34:45 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:45 INFO  time: compiled Spark_bd2c96d2de in 14ms
+2024.02.14 10:34:49 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:49 INFO  time: compiled Spark_bd2c96d2de in 22ms
+2024.02.14 10:34:56 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:34:56 INFO  time: compiled Spark_bd2c96d2de in 85ms
+2024.02.14 10:35:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:18 INFO  time: compiled Spark_bd2c96d2de in 35ms
+2024.02.14 10:35:19 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:19 INFO  time: compiled Spark_bd2c96d2de in 26ms
+2024.02.14 10:35:23 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:23 INFO  time: compiled Spark_bd2c96d2de in 35ms
+2024.02.14 10:35:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:29 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 10:35:32 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:32 INFO  time: compiled Spark_bd2c96d2de in 13ms
+2024.02.14 10:35:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:38 INFO  time: compiled Spark_bd2c96d2de in 35ms
+2024.02.14 10:35:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:54 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.14 10:35:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:35:59 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.14 10:36:28 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:36:28 INFO  time: compiled Spark_bd2c96d2de in 38ms
+2024.02.14 10:37:24 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:24 INFO  time: compiled Spark_bd2c96d2de in 39ms
+2024.02.14 10:37:27 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:27 INFO  time: compiled Spark_bd2c96d2de in 35ms
+2024.02.14 10:37:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:29 INFO  time: compiled Spark_bd2c96d2de in 27ms
+2024.02.14 10:37:30 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:30 INFO  time: compiled Spark_bd2c96d2de in 35ms
+2024.02.14 10:37:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:31 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 10:37:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:33 INFO  time: compiled Spark_bd2c96d2de in 27ms
+2024.02.14 10:37:47 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:47 INFO  time: compiled Spark_bd2c96d2de in 37ms
+2024.02.14 10:37:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:51 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.14 10:37:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:37:59 INFO  time: compiled Spark_bd2c96d2de in 36ms
+2024.02.14 10:38:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:00 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.14 10:38:02 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:02 INFO  time: compiled Spark_bd2c96d2de in 26ms
+2024.02.14 10:38:03 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:03 INFO  time: compiled Spark_bd2c96d2de in 25ms
+2024.02.14 10:38:04 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:04 INFO  time: compiled Spark_bd2c96d2de in 27ms
+2024.02.14 10:38:08 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:08 INFO  time: compiled Spark_bd2c96d2de in 36ms
+2024.02.14 10:38:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:12 INFO  time: compiled Spark_bd2c96d2de in 36ms
+2024.02.14 10:38:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:38:14 INFO  time: compiled Spark_bd2c96d2de in 26ms
+2024.02.14 10:39:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:39:20 INFO  time: compiled Spark_bd2c96d2de in 40ms
+2024.02.14 10:39:53 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:39:53 INFO  time: compiled Spark_bd2c96d2de in 89ms
+2024.02.14 10:40:16 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:16 INFO  time: compiled Spark_bd2c96d2de in 52ms
+2024.02.14 10:40:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:18 INFO  time: compiled Spark_bd2c96d2de in 87ms
+2024.02.14 10:40:19 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:19 INFO  time: compiled Spark_bd2c96d2de in 65ms
+2024.02.14 10:40:28 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:28 INFO  time: compiled Spark_bd2c96d2de in 72ms
+2024.02.14 10:40:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:29 INFO  time: compiled Spark_bd2c96d2de in 73ms
+Feb 14, 2024 10:40:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4495
+2024.02.14 10:40:31 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:31 INFO  time: compiled Spark_bd2c96d2de in 66ms
+2024.02.14 10:40:43 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:43 INFO  time: compiled Spark_bd2c96d2de in 74ms
+2024.02.14 10:40:46 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:46 INFO  time: compiled Spark_bd2c96d2de in 75ms
+2024.02.14 10:40:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:51 INFO  time: compiled Spark_bd2c96d2de in 46ms
+2024.02.14 10:40:52 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:52 INFO  time: compiled Spark_bd2c96d2de in 65ms
+2024.02.14 10:40:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:54 INFO  time: compiled Spark_bd2c96d2de in 73ms
+2024.02.14 10:40:57 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:40:57 INFO  time: compiled Spark_bd2c96d2de in 55ms
+2024.02.14 10:41:01 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:01 INFO  time: compiled Spark_bd2c96d2de in 77ms
+2024.02.14 10:41:09 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:09 INFO  time: compiled Spark_bd2c96d2de in 74ms
+2024.02.14 10:41:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:12 INFO  time: compiled Spark_bd2c96d2de in 59ms
+2024.02.14 10:41:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:14 INFO  time: compiled Spark_bd2c96d2de in 92ms
+2024.02.14 10:41:16 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:16 INFO  time: compiled Spark_bd2c96d2de in 67ms
+2024.02.14 10:41:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:18 INFO  time: compiled Spark_bd2c96d2de in 58ms
+2024.02.14 10:41:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:20 INFO  time: compiled Spark_bd2c96d2de in 76ms
+2024.02.14 10:41:21 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.14 10:41:21 INFO  time: compiled Spark_bd2c96d2de in 61ms

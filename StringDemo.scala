@@ -42,6 +42,14 @@ object StringDemo{
          //split
          var str="hi my name is shivam verma".split(" ");
          str.foreach(println)
+
+         //String comparison methods
+         val str1="ABC";
+         val str2="abc";
+
+         println(str1.equals(str2));
+         println(str1.equalsIgnoreCase(str2));
+         println(str1.compareTo(str2));
     }
 
 }

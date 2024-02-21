@@ -1,0 +1,525 @@
+2024.02.21 09:17:18 INFO  Started: Metals version 1.2.2 in folders '/Users/shivamverma/Documents/Spark' for client Visual Studio Code 1.86.2.
+09:17:18.373 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+09:17:18.374 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+09:17:18.374 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+09:17:18.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+09:17:18.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579 ...
+09:17:18.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+09:17:18.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+09:17:18.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579 ...
+09:17:18.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/shivamverma/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+09:17:18.377 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+09:17:18.377 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+09:17:18.377 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+09:17:18.377 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+09:17:18.377 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+09:17:18.377 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+09:17:18.378 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:17:18.378 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+09:17:18.379 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+09:17:18.379 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+09:17:18.379 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+09:17:18.429 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/shivamverma/Documents/Spark/.metals/metals (H2 2.2)
+09:17:18.429 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+09:17:18.429 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+09:17:18.430 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+09:17:18.430 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+09:17:18.432 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+09:17:18.432 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+09:17:18.432 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:17:18.435 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+09:17:18.436 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:17:18.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:17:18.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:17:18.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:17:18.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:17:18.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:17:18.440 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:17:18.440 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:17:18.440 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:17:18.440 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:17:18.440 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:17:18.440 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+09:17:18.441 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.006s)
+09:17:18.442 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+09:17:18.444 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+09:17:18.444 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+09:17:18.448 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+09:17:18.448 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+09:17:18.448 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+09:17:18.450 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.450 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+09:17:18.451 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.451 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+09:17:18.454 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+09:17:18.454 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+09:17:18.455 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+09:17:18.455 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+09:17:18.455 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+09:17:18.456 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+09:17:18.456 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+09:17:18.456 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+09:17:18.457 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+09:17:18.457 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+09:17:18.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+09:17:18.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+09:17:18.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.458 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+09:17:18.459 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.459 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+09:17:18.459 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.459 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+09:17:18.460 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:17:18.463 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+09:17:18.464 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+09:17:18.464 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+09:17:18.464 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+09:17:18.464 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+09:17:18.464 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.465 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+09:17:18.465 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:17:18.466 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+09:17:18.467 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+09:17:18.467 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+09:17:18.467 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+09:17:18.467 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+09:17:18.468 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+09:17:18.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+09:17:18.471 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.471 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+09:17:18.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+09:17:18.474 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.474 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+09:17:18.475 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:17:18.476 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+09:17:18.477 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+09:17:18.477 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+09:17:18.477 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+09:17:18.477 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+09:17:18.478 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:17:18.478 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+09:17:18.479 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:17:18.482 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.008s)
+09:17:18.489 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 36 of 104M
+2024.02.21 09:17:21 INFO  Running List(/Users/shivamverma/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/shivamverma/Documents/Spark)
+2024.02.21 09:17:21 WARN  No build session currently active to reload.
+2024.02.21 09:17:21 INFO  Attempting to connect to the build server...
+2024.02.21 09:17:21 INFO  Running BSP server List(/Users/shivamverma/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/shivamverma/Documents/Spark/.scala-build/ide-options-v2.json, /Users/shivamverma/Documents/Spark)
+2024.02.21 09:17:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shivamverma/Documents/Spark/.metals/bsp.trace.json or /Users/shivamverma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.02.21 09:17:21 WARN  No build session currently active to reload.
+2024.02.21 09:17:21 INFO  time: Connected to build server in 1.02s
+2024.02.21 09:17:22 INFO  Connected to Build server: scala-cli v1.1.2
+2024.02.21 09:17:22 INFO  compiling spark_bd2c96d2de (13 scala sources)
+2024.02.21 09:17:23 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2024.02.21 09:17:26 INFO  no build target found for /Users/shivamverma/Documents/Spark/VectorDemo.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.02.21 09:17:29 INFO  Cancelling compilation on scala-cli server
+2024.02.21 09:17:29 INFO  time: Imported build in 0.14s
+2024.02.21 09:17:30 INFO  time: indexed workspace in 3.22s
+2024.02.21 09:17:30 INFO  time: indexed workspace in 1.11s
+2024.02.21 09:20:22 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:24 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:27 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:28 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:34 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:35 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:37 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:42 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:50 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:53 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+2024.02.21 09:20:59 WARN  no build target for: /Users/shivamverma/Documents/Spark/VectorDemo.scala
+Feb 21, 2024 9:31:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/shivamverma/Documents/Spark/.metals/.reports/metals-full/2024-02-21/r_compiler-error_09-31-09-582.md
+2024.02.21 09:31:09 INFO  compiling spark_bd2c96d2de (1 scala source and 1 java source)
+2024.02.21 09:31:09 WARN  Running javac-semanticdb failed for file:///Users/shivamverma/Documents/Spark/LazyListDemo.java. Output:
+
+2024.02.21 09:31:11 INFO  time: indexed workspace in 1.37s
+2024.02.21 09:31:15 INFO  compiling spark_bd2c96d2de (1 java source)
+2024.02.21 09:31:15 INFO  time: compiled Spark_bd2c96d2de in 0.35s
+2024.02.21 09:31:16 INFO  Cancelling compilation on scala-cli server
+2024.02.21 09:31:17 INFO  time: indexed workspace in 1.13s
+2024.02.21 09:31:28 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/LazyListDemo.scala
+2024.02.21 09:31:28 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:28 INFO  time: compiled Spark_bd2c96d2de in 41ms
+2024.02.21 09:31:29 INFO  time: indexed workspace in 0.84s
+2024.02.21 09:31:31 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/LazyListDemo.scala
+2024.02.21 09:31:32 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/LazyListDemo.scala
+2024.02.21 09:31:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:33 INFO  time: compiled Spark_bd2c96d2de in 68ms
+2024.02.21 09:31:33 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/LazyListDemo.scala
+2024.02.21 09:31:33 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/LazyListDemo.scala
+2024.02.21 09:31:34 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/LazyListDemo.scala
+2024.02.21 09:31:35 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:35 INFO  time: compiled Spark_bd2c96d2de in 33ms
+2024.02.21 09:31:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:38 INFO  time: compiled Spark_bd2c96d2de in 85ms
+2024.02.21 09:31:45 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:45 INFO  time: compiled Spark_bd2c96d2de in 34ms
+2024.02.21 09:31:46 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:46 INFO  time: compiled Spark_bd2c96d2de in 76ms
+2024.02.21 09:31:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:51 INFO  time: compiled Spark_bd2c96d2de in 37ms
+2024.02.21 09:31:54 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:54 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.21 09:31:56 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:31:56 INFO  time: compiled Spark_bd2c96d2de in 55ms
+Feb 21, 2024 9:31:56 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Users/shivamverma/Documents/Spark/LazyListDemo.java
+java.nio.file.NoSuchFileException: /Users/shivamverma/Documents/Spark/LazyListDemo.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:425)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:67)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:281)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:292)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:223)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:218)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:218)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:180)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:252)
+	at scala.meta.internal.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:215)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+Feb 21, 2024 9:31:56 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /Users/shivamverma/Documents/Spark/LazyListDemo.java
+java.nio.file.NoSuchFileException: /Users/shivamverma/Documents/Spark/LazyListDemo.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:425)
+	at scala.meta.internal.mtags.Mtags.index(Mtags.scala:67)
+	at scala.meta.internal.mtags.Mtags.allSymbols(Mtags.scala:21)
+	at scala.meta.internal.mtags.SymbolIndexBucket.allSymbols(SymbolIndexBucket.scala:281)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:292)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:303)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:223)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:218)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:218)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:180)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.mtags.MtagsEnrichments$.symbolDocumentation(MtagsEnrichments.scala:252)
+	at scala.meta.internal.pc.CompletionItemResolver$.resolve(CompletionItemResolver.scala:27)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve$$anonfun$1(ScalaPresentationCompiler.scala:215)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:156)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:142)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:245)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024.02.21 09:32:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:00 INFO  time: compiled Spark_bd2c96d2de in 61ms
+2024.02.21 09:32:03 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:03 INFO  time: compiled Spark_bd2c96d2de in 0.16s
+2024.02.21 09:32:05 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:05 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:32:09 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:09 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:32:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:12 INFO  time: compiled Spark_bd2c96d2de in 56ms
+2024.02.21 09:32:15 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:15 INFO  time: compiled Spark_bd2c96d2de in 66ms
+2024.02.21 09:32:16 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:16 INFO  time: compiled Spark_bd2c96d2de in 59ms
+2024.02.21 09:32:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:18 INFO  time: compiled Spark_bd2c96d2de in 80ms
+2024.02.21 09:32:19 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:19 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.21 09:32:23 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:23 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:32:36 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:36 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:32:43 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:43 INFO  time: compiled Spark_bd2c96d2de in 61ms
+2024.02.21 09:32:46 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:46 INFO  time: compiled Spark_bd2c96d2de in 61ms
+2024.02.21 09:32:50 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:50 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:32:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:32:59 INFO  time: compiled Spark_bd2c96d2de in 96ms
+2024.02.21 09:33:07 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:07 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:33:09 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:09 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:33:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:10 INFO  time: compiled Spark_bd2c96d2de in 54ms
+2024.02.21 09:33:12 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:12 INFO  time: compiled Spark_bd2c96d2de in 0.22s
+2024.02.21 09:33:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:14 INFO  time: compiled Spark_bd2c96d2de in 62ms
+2024.02.21 09:33:18 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:18 INFO  time: compiled Spark_bd2c96d2de in 54ms
+2024.02.21 09:33:20 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:20 INFO  time: compiled Spark_bd2c96d2de in 0.13s
+2024.02.21 09:33:21 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:21 INFO  time: compiled Spark_bd2c96d2de in 96ms
+2024.02.21 09:33:24 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:24 INFO  time: compiled Spark_bd2c96d2de in 56ms
+2024.02.21 09:33:25 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:25 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:33:27 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:27 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:33:40 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:40 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:33:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:33:51 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:34:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:34:33 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:37:51 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:37:51 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.21 09:38:05 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:38:05 INFO  time: compiled Spark_bd2c96d2de in 0.12s
+2024.02.21 09:38:06 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:38:06 INFO  time: compiled Spark_bd2c96d2de in 97ms
+2024.02.21 09:40:32 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:40:32 INFO  time: compiled Spark_bd2c96d2de in 52ms
+2024.02.21 09:40:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:40:33 INFO  time: compiled Spark_bd2c96d2de in 65ms
+2024.02.21 09:40:45 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:40:45 INFO  time: compiled Spark_bd2c96d2de in 62ms
+2024.02.21 09:40:47 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:40:47 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:40:47 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:40:49 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:40:49 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:40:49 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:40:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:40:59 INFO  time: compiled Spark_bd2c96d2de in 0.13s
+2024.02.21 09:41:02 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:02 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:41:02 INFO  time: compiled Spark_bd2c96d2de in 0.11s
+2024.02.21 09:41:06 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:06 INFO  time: compiled Spark_bd2c96d2de in 60ms
+2024.02.21 09:41:08 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:08 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:41:08 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:41:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:10 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:41:10 INFO  time: compiled Spark_bd2c96d2de in 87ms
+2024.02.21 09:41:23 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:23 INFO  time: compiled Spark_bd2c96d2de in 62ms
+2024.02.21 09:41:27 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:27 INFO  time: compiled Spark_bd2c96d2de in 54ms
+2024.02.21 09:41:30 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:30 INFO  time: compiled Spark_bd2c96d2de in 59ms
+2024.02.21 09:41:32 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:32 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:41:32 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:41:33 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:41:33 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2024.02.21 09:41:33 INFO  time: compiled Spark_bd2c96d2de in 0.1s
+2024.02.21 09:46:37 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/FactorialDemo.scala
+2024.02.21 09:46:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:38 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.21 09:46:38 INFO  time: indexed workspace in 0.97s
+2024.02.21 09:46:40 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/FactorialDemo.scala
+2024.02.21 09:46:41 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/FactorialDemo.scala
+2024.02.21 09:46:42 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/FactorialDemo.scala
+2024.02.21 09:46:42 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Spark/FactorialDemo.scala
+2024.02.21 09:46:45 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:45 INFO  time: compiled Spark_bd2c96d2de in 66ms
+2024.02.21 09:46:46 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:46 INFO  time: compiled Spark_bd2c96d2de in 54ms
+2024.02.21 09:46:49 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:49 INFO  time: compiled Spark_bd2c96d2de in 29ms
+2024.02.21 09:46:50 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:50 INFO  time: compiled Spark_bd2c96d2de in 70ms
+2024.02.21 09:46:58 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:58 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.21 09:46:59 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:46:59 INFO  time: compiled Spark_bd2c96d2de in 41ms
+2024.02.21 09:47:00 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:00 INFO  time: compiled Spark_bd2c96d2de in 30ms
+2024.02.21 09:47:03 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:03 INFO  time: compiled Spark_bd2c96d2de in 23ms
+2024.02.21 09:47:08 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:08 INFO  time: compiled Spark_bd2c96d2de in 31ms
+2024.02.21 09:47:10 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:10 INFO  time: compiled Spark_bd2c96d2de in 32ms
+2024.02.21 09:47:14 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:14 INFO  time: compiled Spark_bd2c96d2de in 0.13s
+2024.02.21 09:47:22 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:22 INFO  time: compiled Spark_bd2c96d2de in 46ms
+2024.02.21 09:47:25 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:25 INFO  time: compiled Spark_bd2c96d2de in 52ms
+2024.02.21 09:47:27 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:27 INFO  time: compiled Spark_bd2c96d2de in 60ms
+2024.02.21 09:47:29 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:29 INFO  time: compiled Spark_bd2c96d2de in 42ms
+Feb 21, 2024 9:47:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1706
+2024.02.21 09:47:38 INFO  compiling spark_bd2c96d2de (1 scala source)
+2024.02.21 09:47:38 INFO  time: compiled Spark_bd2c96d2de in 79ms

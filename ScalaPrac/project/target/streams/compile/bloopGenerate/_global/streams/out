@@ -1,0 +1,4 @@
+[debug] [scalaprac-build] Classpath dependencies List()
+[debug] [scalaprac-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'scalaprac-build' to '/Users/shivamverma/Documents/Spark/ScalaPrac/project/.bloop/scalaprac-build.json'
+[success] Generated .bloop/scalaprac-build.json

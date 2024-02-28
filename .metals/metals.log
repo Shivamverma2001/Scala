@@ -550,3 +550,4 @@ WARNING: Unmatched cancel notification for request id 1706
 2024.02.21 10:23:21 INFO  Shut down connection with build server.
 2024.02.21 10:23:21 INFO  Attempting to connect to the build server...
 2024.02.21 10:23:21 INFO  Setting up current java home /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home in /Users/shivamverma/.bloop/bloop.json
+2024.02.28 10:50:32 INFO  Started: Metals version 1.2.2 in folders '/Users/shivamverma/Documents/Scala' for client Visual Studio Code 1.86.2.

@@ -1,0 +1,938 @@
+2024.03.04 09:11:09 INFO  Started: Metals version 1.2.2 in folders '/Users/shivamverma/Documents/Scala/U3' for client Visual Studio Code 1.87.0.
+09:11:13.097 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+09:11:13.099 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+09:11:13.099 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+09:11:13.101 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+09:11:13.101 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579 ...
+09:11:13.101 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+09:11:13.101 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+09:11:13.101 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@1cf4f579 ...
+09:11:13.101 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/shivamverma/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+09:11:13.105 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+09:11:13.105 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+09:11:13.105 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+09:11:13.106 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+09:11:13.106 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+09:11:13.106 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+09:11:13.110 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:13.110 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+09:11:13.111 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+09:11:13.111 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+09:11:13.111 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+09:11:13.172 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/shivamverma/Documents/Scala/U3/.metals/metals (H2 2.2)
+09:11:13.172 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+09:11:13.173 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+09:11:13.173 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+09:11:13.173 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+09:11:13.176 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+09:11:13.177 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+09:11:13.177 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:13.182 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+09:11:13.185 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:13.191 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:11:13.192 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:11:13.192 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:11:13.192 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:13.192 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:11:13.192 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+09:11:13.193 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+09:11:13.193 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+09:11:13.193 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+09:11:13.193 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+09:11:13.194 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+09:11:13.196 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.013s)
+09:11:13.198 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+09:11:13.200 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+09:11:13.202 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+09:11:13.208 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+09:11:13.208 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+09:11:13.209 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+09:11:13.211 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.211 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+09:11:13.213 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.213 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+09:11:13.217 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+09:11:13.218 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+09:11:13.219 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+09:11:13.219 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+09:11:13.220 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+09:11:13.220 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+09:11:13.221 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+09:11:13.222 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+09:11:13.222 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+09:11:13.223 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+09:11:13.224 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.224 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+09:11:13.225 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.225 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+09:11:13.225 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.225 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+09:11:13.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+09:11:13.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+09:11:13.228 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:11:13.231 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+09:11:13.233 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+09:11:13.233 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+09:11:13.234 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+09:11:13.234 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+09:11:13.235 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.235 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+09:11:13.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:11:13.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+09:11:13.238 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+09:11:13.239 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+09:11:13.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+09:11:13.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+09:11:13.240 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+09:11:13.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+09:11:13.246 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.246 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+09:11:13.250 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.250 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+09:11:13.251 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.251 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+09:11:13.252 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:11:13.254 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+09:11:13.255 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+09:11:13.255 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+09:11:13.256 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+09:11:13.256 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+09:11:13.257 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+09:11:13.257 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+09:11:13.258 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+09:11:13.263 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.017s)
+09:11:13.273 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 104M
+2024.03.04 09:11:18 INFO  no build target found for /Users/shivamverma/Documents/Scala/U3/Transformation.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.04 09:11:21 INFO  Running List(/Users/shivamverma/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/shivamverma/Documents/Scala/U3)
+2024.03.04 09:11:21 WARN  No build session currently active to reload.
+2024.03.04 09:11:21 INFO  Attempting to connect to the build server...
+2024.03.04 09:11:21 INFO  Running BSP server List(/Users/shivamverma/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/shivamverma/Documents/Scala/U3/.scala-build/ide-options-v2.json, /Users/shivamverma/Documents/Scala/U3)
+2024.03.04 09:11:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shivamverma/Documents/Scala/U3/.metals/bsp.trace.json or /Users/shivamverma/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.03.04 09:11:22 WARN  No build session currently active to reload.
+2024.03.04 09:11:21 INFO  time: Connected to build server in 0.74s
+2024.03.04 09:11:21 INFO  Connected to Build server: scala-cli v1.1.2
+2024.03.04 09:11:21 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:11:24 INFO  time: compiled U3_bd2c96d2de in 1.32s
+2024.03.04 09:11:24 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:11:24 INFO  time: compiled U3_bd2c96d2de in 0.58s
+2024.03.04 09:11:27 INFO  time: indexed workspace in 4.67s
+2024.03.04 09:11:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:11:53 INFO  time: compiled U3_bd2c96d2de in 0.3s
+2024.03.04 09:11:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:11:53 INFO  time: compiled U3_bd2c96d2de in 0.36s
+2024.03.04 09:12:01 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Transformation.scala
+2024.03.04 09:12:01 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Transformation.scala
+2024.03.04 09:12:05 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Transformation.scala
+2024.03.04 09:12:09 INFO  BSP server: Mar 04, 2024 9:12:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+2024.03.04 09:12:09 INFO  BSP server: SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index -2147483648 out of bounds for length 621
+2024.03.04 09:12:09 INFO  BSP server: java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index -2147483648 out of bounds for length 621
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2024.03.04 09:12:09 INFO  Cancelling compilation on scala-cli server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2024.03.04 09:12:09 INFO  BSP server: Caused by: java.lang.ArrayIndexOutOfBoundsException: Index -2147483648 out of bounds for length 621
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.CustomCharArrayReader.nextChar(CustomCharArrayReader.java:29)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Scanner.lambda$skipComment$5(Scanner.java:298)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Scanner.skipComment(Scanner.java:308)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Scanner.doFetchToken(Scanner.java:187)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Scanner.fetchToken(Scanner.java:144)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Scanner.nextToken(Scanner.java:98)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Scanner.<init>(Scanner.java:27)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.custom.Parser.<init>(Parser.java:20)
+2024.03.04 09:12:09 INFO  BSP server: 	at com.virtuslab.using_directives.UsingDirectivesProcessor.extract(UsingDirectivesProcessor.java:34)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.preprocessing.ExtractedDirectives$.from(ExtractedDirectives.scala:48)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.preprocessing.ScalaPreprocessor$.process$$anonfun$1(ScalaPreprocessor.scala:196)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.EitherCps$Helper.apply(EitherCps.scala:19)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.preprocessing.ScalaPreprocessor$.process(ScalaPreprocessor.scala:210)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.preprocessing.ScalaPreprocessor$.$anonfun$1(ScalaPreprocessor.scala:71)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.EitherCps$Helper.apply(EitherCps.scala:19)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.preprocessing.ScalaPreprocessor$.preprocess(ScalaPreprocessor.scala:115)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.CrossSources$.preprocessSources$1$$anonfun$1$$anonfun$1(CrossSources.scala:180)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.Iterator$$anon$10.nextCur(Iterator.scala:594)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:608)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.Iterator$SliceIterator.hasNext(Iterator.scala:1240)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.immutable.List.prependedAll(List.scala:152)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.IterableOnceOps.toList(IterableOnce.scala:1315)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.IterableOnceOps.toList$(IterableOnce.scala:1315)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.AbstractIterator.toList(Iterator.scala:1300)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.CrossSources$.preprocessSources$1$$anonfun$1(CrossSources.scala:182)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.immutable.List.map(List.scala:250)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.collection.immutable.List.map(List.scala:79)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.CrossSources$.preprocessSources$1(CrossSources.scala:185)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.CrossSources$.forInputs$$anonfun$1(CrossSources.scala:204)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.EitherCps$Helper.apply(EitherCps.scala:19)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.CrossSources$.forInputs(CrossSources.scala:376)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.bsp.BspImpl.prepareBuild$$anonfun$1(BspImpl.scala:111)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.EitherCps$Helper.apply(EitherCps.scala:19)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.bsp.BspImpl.prepareBuild(BspImpl.scala:212)
+2024.03.04 09:12:09 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$9(BspImpl.scala:293)
+2024.03.04 09:12:09 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+2024.03.04 09:12:09 INFO  BSP server: 	... 5 more
+2024.03.04 09:12:09 INFO  BSP server: 
+2024.03.04 09:12:09 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:09 INFO  time: compiled U3_bd2c96d2de in 0.19s
+2024.03.04 09:12:15 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:15 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 09:12:20 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:20 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:12:24 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:24 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 09:12:32 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:32 INFO  time: compiled U3_bd2c96d2de in 0.18s
+Mar 04, 2024 9:12:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+Mar 04, 2024 9:12:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 203
+2024.03.04 09:12:38 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:38 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:12:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:40 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 09:12:46 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:46 INFO  time: compiled U3_bd2c96d2de in 0.19s
+2024.03.04 09:12:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:47 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:12:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:53 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:12:59 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:12:59 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:00 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:00 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:02 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:02 INFO  time: compiled U3_bd2c96d2de in 0.22s
+2024.03.04 09:13:05 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:05 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:09 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:09 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:13:16 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:16 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:22 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:22 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:26 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:26 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:30 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:30 INFO  time: compiled U3_bd2c96d2de in 0.17s
+Mar 04, 2024 9:13:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 565
+2024.03.04 09:13:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:40 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:13:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:13:41 INFO  time: compiled U3_bd2c96d2de in 0.15s
+Mar 04, 2024 9:20:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 609
+2024.03.04 09:40:59 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:40:59 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 09:41:29 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:41:29 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:42:31 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:31 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:42:36 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:36 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:42:39 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:39 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:42:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:40 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:42:45 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:45 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:42:48 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:48 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:42:54 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:54 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:42:55 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:55 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:42:58 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:42:58 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:43:01 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:43:01 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:43:03 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:43:03 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:43:08 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:43:08 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:43:12 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:43:12 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:45:56 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:45:56 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:45:56 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:45:58 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:46:26 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:26 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:46:28 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:28 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:46:32 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:32 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:46:45 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:45 INFO  time: compiled U3_bd2c96d2de in 0.15s
+Mar 04, 2024 9:46:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1158
+2024.03.04 09:46:49 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:49 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 09:46:51 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:51 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:46:55 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:55 INFO  time: compiled U3_bd2c96d2de in 0.19s
+2024.03.04 09:46:56 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:56 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:46:58 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:46:58 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:47:01 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:47:01 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:47:03 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:47:03 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:47:05 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:47:05 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:48:42 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:48:42 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 09:48:43 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:48:43 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:48:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:48:44 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:48:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:48:47 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:48:50 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:48:50 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:06 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:06 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:49:08 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:08 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:12 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:12 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:49:19 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:19 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:25 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:25 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:28 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:28 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:49:30 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:30 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:49:33 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:33 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 09:49:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:35 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:49:37 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:37 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:40 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:43 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:43 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:49:45 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:49:45 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:50:10 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:10 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:50:12 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:12 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:50:15 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:15 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:50:16 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:16 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:50:45 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:45 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 09:50:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:47 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 09:50:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:53 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 09:50:57 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 09:50:57 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:11:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:11:41 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:11:43 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:11:43 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:11:48 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:11:48 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:11:54 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:11:54 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:11:56 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:11:56 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:11:58 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:11:58 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:00 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:00 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:12:02 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:02 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:04 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:04 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:05 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:05 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:08 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:08 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:09 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:09 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:10 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:10 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:14 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Transformation.scala
+scala.meta.tokenizers.TokenizeException: <input>:49: error: unclosed character literal
+        val data=sc.parallelize(Array(('a',1),('')))
+                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:12:15 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:15 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:12:18 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:18 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:19 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:19 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:23 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:23 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:25 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:25 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:28 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:28 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:30 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:30 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:31 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:31 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:32 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:32 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:34 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Transformation.scala
+scala.meta.tokenizers.TokenizeException: <input>:49: error: unclosed character literal
+        val data=sc.parallelize(Array(('a',1),('b',2),('c',3),('a',5),('')))
+                                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:12:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:35 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:35 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Transformation.scala
+scala.meta.tokenizers.TokenizeException: <input>:49: error: unclosed character literal
+        val data=sc.parallelize(Array(('a',1),('b',2),('c',3),('a',5),('')))
+                                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:12:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:36 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:38 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:38 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:39 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:39 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:42 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:42 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:44 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:12:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:47 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:12:54 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:54 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:12:56 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:12:56 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:13:02 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:13:02 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:13:05 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:13:05 INFO  time: compiled U3_bd2c96d2de in 0.15s
+Mar 04, 2024 10:14:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2442
+2024.03.04 10:14:31 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:14:31 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:14:48 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:14:48 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:15:18 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:18 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:15:19 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:19 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:15:21 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:21 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:15:23 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:23 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:15:24 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:24 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:15:27 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:27 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:15:32 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:32 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:15:34 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:34 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:15:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:44 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:15:52 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:15:52 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:16:07 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:07 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:16:11 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:11 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:16:15 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:15 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:16:18 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:18 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:16:19 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:19 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:16:22 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:22 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:16:26 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:26 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:16:34 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:34 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:16:38 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:16:38 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:17:08 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:08 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:17:17 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:17 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:17:34 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:34 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:17:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:35 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:17:37 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:37 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:17:38 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:38 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:17:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:40 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:17:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:41 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:17:43 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:43 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:17:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:44 INFO  time: compiled U3_bd2c96d2de in 0.15s
+Mar 04, 2024 10:17:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2977
+2024.03.04 10:17:46 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:46 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:17:48 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:17:48 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:18:24 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:24 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:18:27 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:27 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:18:28 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:28 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:18:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:35 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:18:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:40 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:18:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:41 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:18:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:44 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:18:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:47 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:18:50 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:50 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:18:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:53 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:18:56 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:56 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:18:57 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:57 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:18:59 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:18:59 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:19:03 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:03 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:19:09 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:09 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:19:13 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:13 INFO  time: compiled U3_bd2c96d2de in 0.21s
+2024.03.04 10:19:15 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:15 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:19:17 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:17 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:19:22 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:22 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:19:27 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:27 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:19:31 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:31 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:19:37 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:37 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:19:43 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:43 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:19:48 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:48 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:19:51 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:51 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:19:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:19:53 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:20:24 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:20:24 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:21:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:21:35 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:21:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:21:47 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:21:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:21:53 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:21:57 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:21:57 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:22:24 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:22:24 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:22:33 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:22:33 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:22:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:22:41 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:22:42 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:22:42 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:22:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:22:44 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:23:26 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:26 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:23:35 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:35 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:23:39 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:39 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:23:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:41 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:23:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:44 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:23:49 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:49 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:23:51 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:51 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:23:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:23:53 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:24:19 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Transformation.scala
+scala.meta.tokenizers.TokenizeException: <input>:67: error: illegal character '\u00b8'
+        ¸
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:24:21 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:24:21 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:24:21 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Transformation.scala
+scala.meta.tokenizers.TokenizeException: <input>:67: error: illegal character '\u00b8'
+        ¸
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:24:25 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:24:25 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:25:01 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:01 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:25:06 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:06 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:25:09 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:09 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:25:12 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:12 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:25:14 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:14 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:25:17 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:17 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:25:19 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:19 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:25:20 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:25:20 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:26:40 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:40 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:26:42 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:42 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:26:45 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:45 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:26:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:47 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:26:51 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:51 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:26:53 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:53 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:26:58 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:26:58 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:02 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:02 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:04 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:04 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:06 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:06 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:27:14 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:14 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:19 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:19 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:20 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:20 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:27:25 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:25 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:27 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:27 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:27:29 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:29 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:27:31 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:31 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:41 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:41 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:27:44 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:44 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:27:46 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:46 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:47 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:47 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:27:49 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:49 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:27:51 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:51 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:27:54 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:54 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:27:58 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:27:58 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:28:01 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:28:01 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:28:17 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:28:17 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:28:48 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:28:48 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:28:52 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:28:52 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:28:54 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:28:54 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:28:57 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:28:57 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:29:02 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:29:02 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:29:26 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:29:26 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:29:29 INFO  compiling u3_bd2c96d2de (2 scala sources)
+2024.03.04 10:29:29 INFO  time: compiled U3_bd2c96d2de in 0.15s

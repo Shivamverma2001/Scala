@@ -936,3 +936,723 @@ scala.meta.tokenizers.TokenizeException: <input>:67: error: illegal character '\
 2024.03.04 10:29:26 INFO  time: compiled U3_bd2c96d2de in 0.16s
 2024.03.04 10:29:29 INFO  compiling u3_bd2c96d2de (2 scala sources)
 2024.03.04 10:29:29 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:31:57 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:31:57 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:31:57 INFO  time: compiled U3_bd2c96d2de in 0.25s
+2024.03.04 10:31:57 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:31:57 INFO  time: compiled U3_bd2c96d2de in 0.2s
+2024.03.04 10:31:59 INFO  time: indexed workspace in 1.54s
+2024.03.04 10:31:59 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:01 INFO  time: compiled U3_bd2c96d2de in 2.67s
+Mar 04, 2024 10:32:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4451
+Mar 04, 2024 10:32:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4452
+2024.03.04 10:32:02 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:32:01 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:01 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:32:02 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:32:03 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:03 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:32:03 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:32:04 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:32:04 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:04 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:32:05 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:32:08 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:08 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:32:10 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:10 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:32:13 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:13 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:32:20 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:20 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:32:21 WARN  Could not find semantic tokens for: file:///Users/shivamverma/Documents/Scala/U3/Action.scala
+2024.03.04 10:32:22 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:22 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:32:23 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:23 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:32:25 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:25 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:32:34 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:34 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:32:41 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:41 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:32:44 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:44 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:32:46 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:46 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:32:58 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:32:58 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:05 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:05 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:11 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:11 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:33:13 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:13 INFO  time: compiled U3_bd2c96d2de in 0.14s
+Mar 04, 2024 10:33:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4785
+2024.03.04 10:33:15 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:15 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:17 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:17 INFO  time: compiled U3_bd2c96d2de in 0.24s
+2024.03.04 10:33:21 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:21 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:22 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:22 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:33:25 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:25 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:33:27 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:27 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:33 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:33 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:37 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:37 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:33:40 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:40 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:44 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:44 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:33:47 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:47 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:33:49 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:49 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:33:50 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:50 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:33:53 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:53 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:33:58 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:58 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:33:59 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:33:59 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:34:28 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:34:28 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:34:44 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:34:44 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:34:47 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:34:47 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:34:55 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:34:55 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:34:57 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:34:57 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:34:58 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:34:58 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:35:00 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:00 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:35:03 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:03 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:35:05 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:05 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:35:13 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:13 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:35:14 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:14 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:35:16 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:16 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:35:18 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:18 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:35:20 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:20 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:35:36 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:35:36 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:05 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:05 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:36:09 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:09 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:11 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:11 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:14 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:23: error: unclosed string literal
+        val r3=sc.textFile("/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:14 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:14 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:14 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:23: error: unclosed string literal
+        val r3=sc.textFile("/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:15 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:23: error: unclosed string literal
+        val r3=sc.textFile("/Users/shivamverma/Documents/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:16 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:16 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:16 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:23: error: unclosed string literal
+        val r3=sc.textFile("/Users/shivamverma/Documents/Scala/U3/rdd.txt
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:17 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:17 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:17 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:23: error: unclosed string literal
+        val r3=sc.textFile("/Users/shivamverma/Documents/Scala/U3/rdd.txt
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:18 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:18 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:20 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:20 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:21 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:21 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:22 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:22 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:25 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:25 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:27 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:27 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:29 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:29 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:29 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:28: error: unclosed string literal
+        val r4=sc.makeRDD(List(("Shiva",89), ("Akash",70), ("
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:31 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:31 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:36:32 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:32 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:34 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:34 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:35 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:35 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:36:36 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:36 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:38 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:38 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:40 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:40 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:40 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/Users/shivamverma/Documents
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:41 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:41 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:41 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/Users/shivamverma/Documents
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:42 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/Users/shivamverma/Documents/Scala/U3/rdd.
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:36:42 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:42 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:43 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:43 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:45 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:45 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:36:45 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:47 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:48 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:48 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:36:49 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:49 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:36:50 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:50 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:36:57 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:36:57 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:38:43 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:38:43 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:39:03 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:39:03 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:39:05 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:39:05 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:39:27 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:39:27 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:39:52 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:39:52 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:39:59 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:39:59 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:05 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:05 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:40:07 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:40:08 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:08 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:08 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:40:09 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/Users/shivamverma/Documents/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:40:09 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:09 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:10 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/Users/shivamverma/Documents/
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:40:10 ERROR Failed to tokenize input for semantic tokens for /Users/shivamverma/Documents/Scala/U3/Action.scala
+scala.meta.tokenizers.TokenizeException: <input>:33: error: unclosed string literal
+        val r5=sc.textFile("/Users/shivamverma/Documents/Scala/U3/rdd.txt
+                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.03.04 10:40:11 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:11 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:40:12 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:12 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:13 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:13 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:15 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:15 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:32 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:32 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:40:51 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:51 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:40:56 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:56 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:40:58 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:40:58 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:41:03 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:03 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:41:04 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:04 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:41:05 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:05 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:41:09 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:09 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:41:11 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:11 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:41:12 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:12 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:41:13 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:13 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:41:16 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:16 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:41:20 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:20 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:41:22 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:22 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:41:25 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:25 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:41:32 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:32 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:41:35 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:41:35 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:42:32 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:32 INFO  time: compiled U3_bd2c96d2de in 0.18s
+2024.03.04 10:42:33 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:33 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:35 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:35 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:37 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:37 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:40 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:40 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:46 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:46 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:49 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:49 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:42:53 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:53 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:56 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:56 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:42:57 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:57 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:42:59 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:42:59 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:43:03 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:43:03 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:43:06 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:43:06 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:43:08 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:43:08 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:43:11 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:43:11 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:43:55 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:43:55 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:43:58 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:43:58 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:44:03 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:44:03 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:45:10 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:10 INFO  time: compiled U3_bd2c96d2de in 0.17s
+2024.03.04 10:45:14 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:14 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:19 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:19 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:35 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:35 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:41 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:41 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:43 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:43 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:45 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:45 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:45:48 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:48 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:49 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:49 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:45:52 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:52 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:53 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:53 INFO  time: compiled U3_bd2c96d2de in 0.15s
+2024.03.04 10:45:56 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:56 INFO  time: compiled U3_bd2c96d2de in 0.14s
+2024.03.04 10:45:57 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:57 INFO  time: compiled U3_bd2c96d2de in 0.16s
+2024.03.04 10:45:58 INFO  compiling u3_bd2c96d2de (3 scala sources)
+2024.03.04 10:45:58 INFO  time: compiled U3_bd2c96d2de in 0.14s

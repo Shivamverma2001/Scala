@@ -7,6 +7,7 @@ Action methods
 4. top
 5. countbyvalue
 6. reduce
+7. foreach
 */
 object Action{
     def main(args: Array[String]): Unit = {
